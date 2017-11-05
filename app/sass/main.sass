@@ -18,13 +18,18 @@
     background-color: rgba(83,99,219, .8)
     padding-top: 100px
     padding-bottom: 200px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
   .form
     width: 300px
     height: 390px
     background-color: white
     border-radius: 25px
-    margin-left: 30%
-    float:  left 
+    // margin-left: 30%
+    // float:  left 
+
      
     h3
       color: #5363db 
@@ -81,47 +86,40 @@
     position: fixed 
 
     .menu 
+      ul
+        margin-top: 0px
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center  
         
-        // width: 100% 
-        ul
-            display:  flex
-            flex-direction: row
-            justify-content:  center
-            margin-top: 0 
-            padding-left: 200px 
+        li
 
-            li
-                list-style-type: none 
-                padding-top: 45px
-                padding-bottom: 45px
-                a
-                    color: #555
-                    margin-right: 30px
+          list-style-type: none 
+          padding-top: 45px
+          padding-bottom: 45px
+          a
+            color: #555
+            margin-right: 30px
 
-                    text-decoration: none
-                a:hover
-                  color: #5e6ddd
-
-                  border-bottom: 1px #5e6ddd solid
-                  // width: 12px
-                  // height: 1px
-                  // p
-                  //   width: 12px 
-                  //   height: 1px 
-
-                  //   background-color: #5e6ddd      
-            .logo
-              img
-                padding-top: 15px
-                padding-left: 120px
-                padding-right: 150px
-                padding-bottom: 5px
-              span  
-                display: flex
-                flex-direction: column
-                padding-left: 120px
-                color: #7582e2
-                font-size: 24px
+            text-decoration: none
+          a:hover
+            color: #5e6ddd 
+            border-bottom: 1px #5e6ddd solid 
+      .logo
+        img
+          padding-top: 15px
+          padding-left: 125px
+          padding-right: 130px
+          padding-bottom: 5px
+        span  
+          display: flex
+          flex-direction: column
+          justify-content: center
+          align-items: center
+          // padding-left: 100px
+          color: #7582e2
+          font-size: 24px
 .box_1
   text-align: center
   border-radius: 5px
@@ -187,7 +185,7 @@
     cursor: pointer
     img
       float: left
-      // width: 480px
+      width: 480px
       height: 350px
       
     .description
@@ -270,13 +268,13 @@
   .container_box
     width: 1200px
     height: 570px
-    margin-left: 20%
+    margin-left: 250px
     padding-top: 125px
     margin-top: 125px
-     
+      
 .box_5
   background-color: #d7d7d7
-  text-align: center
+  text-align: center 
 
   .price_content
     margin-top: 100px 
