@@ -4,6 +4,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
+  .header
+    .top_header
+      left: 13%
   .box_4
     min-height: 1000px
     .box_fon
@@ -29,8 +32,16 @@
       padding-top: 125px
       margin-top: 125px
 
+   
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
+  .header
+    .top_header
+      left: 5%
+    .text_header
+      p
+        margin-left: 40px
   .box_4
     min-height: 1300px
     .box_fon
@@ -193,6 +204,29 @@
 //       margin-left: 5%
 
 @media only screen and (max-width : 768px)
+  .header
+    .top_header
+      left: 0%
+      .menu
+        .logo
+          img
+            padding-left: 15px
+            padding-right: 45px
+          span
+            margin-right: 25px
+    .form
+    .text_header
+      p
+        margin-left: 40px
+      p:first-child
+      text-transform: uppercase
+      font-size: 15px 
+      width: 285px  
+      height: 210px 
+   
+    p:last-child
+      font-size: 15px
+      width: 270px 
   .box_4
     min-height: 1300px
     .box_fon
