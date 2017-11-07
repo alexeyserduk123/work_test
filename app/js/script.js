@@ -9,3 +9,12 @@ $('.owl_carousel_1').owlCarousel({
   navigation: true,
   navigationText: ['<img src="img/strelka1.png" alt="">','<img src="img/strelka2.png" alt="">']
  });
+
+$(function(){
+
+	$('.btn').click(function(){
+		$('.menu ul').slideToggle();
+	})
+
+
+})

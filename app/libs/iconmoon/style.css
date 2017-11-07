@@ -24,19 +24,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mail:before {
-  content: "\e900";
-}
 .icon-menu:before {
   content: "\e9bd";
 }
-.icon-star-full:before {
-  content: "\e9d9";
-}
-.icon-facebook:before {
-  content: "\ea90";
-}
-.icon-twitter:before {
-  content: "\ea96";
-}
+
 
